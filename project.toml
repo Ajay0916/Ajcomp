@@ -3,3 +3,14 @@ uri = "heroku/python"
 
 [[build.buildpacks]]
 uri = "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
+{
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
